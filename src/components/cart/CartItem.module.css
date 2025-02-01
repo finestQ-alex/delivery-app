@@ -1,0 +1,26 @@
+.cartItem {
+  border: 1px solid black;
+  border-radius: 5px;
+  margin: 1rem;
+  padding: 0 0.5rem 0.5rem 0.5rem;
+}
+
+.cartItemHeader {
+  display: flex;
+  justify-content: space-between;
+}
+.cartItemHeader div {
+  padding-top: 1rem;
+}
+
+.cartItemHeader div button {
+  font-size: 20px;
+  border: 1px solid black;
+  margin-right: 0.5rem;
+  background-color: yellow;
+  color: black;
+  cursor: pointer;
+  width: 2rem;
+  height: 2rem;
+  border-radius: 3px;
+}

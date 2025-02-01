@@ -1,0 +1,45 @@
+.cartModal {
+  position: absolute;
+  left: 30%;
+  top: 10%;
+  background-color: #ccc;
+  width: 40%;
+  border-radius: 0.25rem;
+}
+
+.cartNav {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 1rem 0.5rem 1rem;
+}
+
+.cartNav span {
+  color: purple;
+  font-weight: bold;
+}
+
+.totalPrice {
+  margin-left: 2rem;
+  font-weight: bolder;
+}
+
+.cartNavBtns {
+  margin-left: 1.5rem;
+}
+
+.cartNavBtns button {
+  background-color: white;
+  color: black;
+  border: none;
+  margin-right: 0.5rem;
+  cursor: pointer;
+}
+
+.backdrop {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  background: rgba(0, 0, 0, 0.25);
+}

@@ -1,0 +1,50 @@
+.productBox {
+  background-color: yellow;
+  margin-top: 1rem;
+  width: 60%;
+  height: 6.25rem;
+  border-radius: 0.5rem;
+}
+
+.productHeader {
+  display: flex;
+  justify-content: space-between;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+.productHeader div {
+  padding-top: 1.25rem;
+}
+
+.productMain {
+  display: flex;
+  justify-content: space-between;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  padding-bottom: 1rem;
+}
+
+.productMain span {
+  color: blueviolet;
+  font-weight: bold;
+}
+
+.productMain button {
+  font-size: 13px;
+  width: 4.5rem;
+  height: 1.8rem;
+  border-radius: 8px;
+  border: 1px solid aquamarine;
+  background: white;
+  cursor: pointer;
+}
+
+.productMain button:hover {
+  border: 1px solid white;
+  background: aquamarine;
+}
+
+.invalid {
+  background-color: red;
+}
