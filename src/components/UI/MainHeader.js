@@ -12,7 +12,6 @@ const MainHeader = () => {
     <section className={classes.mainHeader}>
       <h1>Chinesefood Delivery App</h1>
       <CartBtn />
-      //cartModal
       {cartContextInfo.isShow && <CartModal />}
     </section>
   );
